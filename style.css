@@ -1,0 +1,52 @@
+body {
+  font-family: system-ui;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  color: black;
+  top: 0;
+  background-color: #d67bff; /* Change the background color to distinguish the header */
+  z-index: 1000; /* Added to ensure the header stays above other content */
+}
+
+.container {
+  margin-top: 150px;
+  width: inherit;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  width: inherit;
+}
+.col {
+  display: flex;
+  width: inherit;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin-left: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 100px 0;
+  font-weight: bolder;
+  font-size: large;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  cursor: pointer;
+  background-color: #f4dfc8;
+  border: 8px solid #d67bff;
+}
